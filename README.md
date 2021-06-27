@@ -1,4 +1,5 @@
-# jo-admin : React admin template built from excellent tut [https://www.youtube.com/watch?v=aTPkos3LKi8] by LamaDev, and create-react-app
+# jo-admin
+  React admin template built from excellent tut [https://www.youtube.com/watch?v=aTPkos3LKi8] by LamaDev, and create-react-app
 
 
 
