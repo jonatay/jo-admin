@@ -1,3 +1,9 @@
+# jo-admin : React admin template built from excellent tut [https://www.youtube.com/watch?v=aTPkos3LKi8] by LamaDev, and create-react-app
+
+
+
+...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
