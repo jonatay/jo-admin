@@ -1,0 +1,9 @@
+body {
+  background-color: #1d1d38;
+  color: whitesmoke;
+  width: 100%;
+  height: 100%;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}

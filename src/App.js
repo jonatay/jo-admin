@@ -1,12 +1,67 @@
 import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
-
+import "./app.css";
 function App() {
   return (
-    <div className="App">
+    <div>
       <Topbar />
-      <Sidebar />
-      other pages
+      <div className="container">
+        <Sidebar />
+        <div className="others">
+          {" "}
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+          other pages <br />
+        </div>
+        <br />
+      </div>{" "}
     </div>
   );
 }
