@@ -1,40 +1,31 @@
 import React from "react";
-import {
-  AssignmentTurnedInTwoTone,
-  ChatBubbleTwoTone,
-  NotificationsNoneTwoTone,
-  SettingsApplicationsTwoTone,
-  AccountCircleTwoTone,
-} from "@material-ui/icons";
-
 import "./topbar.css";
+import { NotificationsNone, Language, Settings } from "@material-ui/icons";
+
 export default function Topbar() {
   return (
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topLeft">
-          <span className="logo">joadmin</span>
+          <span className="logo">lamaadmin</span>
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">
-            <AssignmentTurnedInTwoTone />
+            <NotificationsNone />
             <span className="topIconBadge">2</span>
           </div>
           <div className="topbarIconContainer">
-            <ChatBubbleTwoTone />
-            <span className="topIconBadge">6</span>
-          </div>
-          <div className="topbarIconContainer">
-            <NotificationsNoneTwoTone />
+            <Language />
             <span className="topIconBadge">2</span>
           </div>
           <div className="topbarIconContainer">
-            <AccountCircleTwoTone />
-            <span className="topIconBadge">3</span>
+            <Settings />
           </div>
-          <div className="topbarIconContainer">
-            <SettingsApplicationsTwoTone />
-          </div>
+          <img
+            src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            alt=""
+            className="topAvatar"
+          />
         </div>
       </div>
     </div>
